@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For Kyra</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="lock-screen" id="lockScreen">
+      <div class="lock-card">
+        <p class="eyebrow">Private page</p>
+        <h1>For My Favorite Person</h1>
+        <p class="subtext">Enter the password to unlock your little love letter.</p>
+
+        <form id="passwordForm" novalidate>
+          <label class="sr-only" for="passwordInput">Password</label>
+          <input
+            id="passwordInput"
+            type="password"
+            placeholder="Enter password"
+            autocomplete="off"
+          />
+          <button type="submit">Unlock</button>
+        </form>
+
+        <p id="errorMessage" class="error-message" aria-live="polite"></p>
+      </div>
+    </div>
+
+    <main class="site-content" id="siteContent">
+      <header class="hero">
+        <nav class="topbar">
+          <span class="brand">Kyra</span>
+          <span class="tag">My heart, my home, my everything</span>
+        </nav>
+        <br>
+        <div class="hero-copy">
+          <p class="eyebrow">To the girl I love more than anything in this world</p>
+          <h2>Te amo mi reina</h2>
+          <p>
+            I'm not really good at writing sweet notes, and I wanted to make something you could look at whenever you want.
+          </p>
+          <a href="#love-notes" class="cta">Read my notes</a>
+        </div>
+
+        <div class="hero-visual" aria-label="Decorative love illustration">
+          <div class="heart-shape">❤</div>
+          <div class="sparkles">
+            <span>💕</span>
+            <span>💕</span>
+            <span>💕</span>
+          </div>
+        </div>
+      </header>
+
+      <section class="story-counter" aria-live="polite">
+        <div class="counter-shell">
+          <p class="eyebrow">Our love story</p>
+          <h3>Since August 31st, 2026 at 2:54 PM</h3>
+          <div class="counter-display" id="datingCounter">Loading our timeline...</div>
+        </div>
+      </section>
+
+      <section class="love-notes" id="love-notes">
+        <div class="section-heading">
+          <p class="eyebrow">Why you're the only one for me</p>
+          <h3>Little things that you don't realize about yourself</h3>
+        </div>
+
+        <div class="card-grid">
+          <article class="note-card">
+            <span class="icon">🌙</span>
+            <h4>Your kindness</h4>
+            <p>You have shown me so much kindness and love that I don't even know what I did to deserve it.</p>
+          </article>
+
+          <article class="note-card">
+            <span class="icon">💖</span>
+            <h4>Your smile</h4>
+            <p>Even when you try to hide it, that is one of the most beautiful things i've ever seen. Your smile just brightens my day no matter what im going through.</p>
+          </article>
+
+          <article class="note-card">
+            <span class="icon">✨</span>
+            <h4>Your presence</h4>
+            <p>It doesn't matter if I feel like the world is coming down all aroung me, or that I'm in a bad mood, the moment I see you it just makes my day better. I think about you all the time, and I wish there wasn't a moment without you.</p>
+          </article>
+
+          <article class="note-card">
+            <span class="icon">🌷</span>
+            <h4>Your love</h4>
+            <p>You have shown me so much more love in this past month and a half than I ever thought I would get in my life.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="memory-section">
+        <div class="section-heading left-align">
+          <p class="eyebrow">Us and Specifically You</p>
+          <h3>Some pictures that I really love and cherish</h3>
+        </div>
+
+        <div class="memory-grid">
+          <div class="memory-card">
+            <img src="4E9DDFA4-DA05-4D6C-B7FE-07FD858BB6B6.jpeg" alt="Kyra smiling at the camera" />
+          </div>
+          <div class="memory-card">
+            <img src="36790CA1-D151-44EE-800B-7B6E3F547063_1_105_c.jpeg" alt="Kyra laughing with her friends" />
+          </div>
+          <div class="memory-card">
+            <img src="B9CF2ED3-7838-4654-B70D-1E83BCD825F1_1_105_c.jpeg" alt="Kyra enjoying a sunny day outdoors" />
+          </div>
+          <div class="memory-card">
+            <img src="C9C1D466-1356-410F-A4EE-3C835B73D5D0.jpeg" alt="Kyra looking thoughtful and serene" />
+          </div>
+          <div class="memory-card">
+            <img src="IMG_4731.jpeg" alt="Kyra smiling at the camera" />
+          </div>
+          <div class="memory-card">
+            <img src="IMG_4734.jpeg" alt="Kyra laughing with her friends" />
+          </div>
+          <div class="memory-card">
+            <img src="IMG_4735.jpeg" alt="Kyra enjoying a sunny day outdoors" />
+          </div>
+          <div class="memory-card">
+            <img src="IMG_4736.jpeg" alt="Kyra looking thoughtful and serene" />
+          </div>
+        </div>
+      </section>
+
+      <section class="promise-section">
+        <p class="eyebrow">A different note</p>
+        <h3>No matter what comes or tries to get in the way of us won't ever stop the way I feel about you.</h3>
+        <p>
+          You are my everything, and I can't even stand the thought of ever losing you or making you feel like I've lost feelings for you. I love you so much, and I can't wait to spend the rest of my life with you. You are absolutely perfect, and I dont want you to ever think that you're too much or a hassle or a struggle. I love you for who you are, I love all of you, your perfections and your imperfections, you will always be perfect in my eyes. I love every second I get to spend with you. I want you to know that it will ever be me and you against each other, but it's us against everything else. Nothing can change the way I feel about you. I love you so much, my beautiful, sweet princess. <br> Love, your boyfriend, Aidan
+        </p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
