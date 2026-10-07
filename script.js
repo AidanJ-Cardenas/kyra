@@ -1,4 +1,4 @@
-const SECRET_PASSWORD = "kyra123";
+const SECRET_PASSWORD = "kyra083126";
 const START_DATE = new Date("2026-08-31T14:54:00");
 
 const passwordForm = document.getElementById("passwordForm");
